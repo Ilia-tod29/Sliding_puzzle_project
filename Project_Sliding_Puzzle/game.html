@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliding Puzzle</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script src="scripts/game.js" type="module"></script>
+    <script src="scripts/timer.js" type="module"></script>
+
+</head>
+    <body>
+        <div><button class="sign-out-btn">Sign out</button> <span id="username"></span></div>
+        <main class="sliding-puzzle-figure">
+            <div class="heading">
+                Sliding Puzzle <span class="separator hidden">|</span> <a id="shuffle" class="">Shuffle</a> <span class="separator hidden">|</span> <a id="give-up" class="">Give up</a>
+            </div>
+            <ul class="sliding-puzzle">
+                <div class="level">
+                    <input type="radio" id="option1" class="option" name="options" value="all" checked>
+                    <label for="option1">3x3</label>
+    
+                    <input type="radio" id="option2" class="option" name="options" value="false">
+                    <label for="option2">4x4</label>
+                    
+                    <input type="radio" id="option3" class="option" name="options" value="true">
+                    <label for="option3">5x5</label>
+                </div>
+                <button class="play">Play</button>
+                <h2 class="win-label hidden">YOU WIN!</h2>
+            </ul>
+            <div class="timer">
+                <p><span id="hours">00</span>:<span id="minuets">00</span>:<span id="seconds">00</span>:<span id="tens">00</span></p>
+                <button class="ranking">Ranking</button>
+            </div>
+    
+        </main>
+    </body>
+</html>
