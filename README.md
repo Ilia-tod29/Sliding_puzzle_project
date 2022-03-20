@@ -1,5 +1,6 @@
 # Sliding puzzle game
 
+!License for firebase - expired 
 Sliding puzzle is a fun game where you can compete with your friends and test your puzzle-solving skills.
 
 ## Description
